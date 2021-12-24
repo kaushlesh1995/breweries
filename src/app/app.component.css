@@ -1,0 +1,51 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+  .brewerie_card{
+      height: 20rem;
+      background-color: #fff;
+      border-radius: 5px;
+  }
+
+  .brewerie_img{
+    width: 96px;
+    height: 97px;
+    border-radius: 50%;
+  }
+  .custom-row{
+      display: flex;
+  }
+  .learn_more{
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: gray;
+    cursor: pointer;
+    font-size: 13px;
+    height: 29px;
+    width: 30%;
+  }
+  .person_name{
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  input{
+      outline: none;
+      border: 0;
+  }
+
+  :focus input{
+      outline: none;
+      border: 0;
+  }
